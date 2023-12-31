@@ -1,0 +1,35 @@
+.signup-form {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.formBox {
+    max-width: 40%;
+    background-color: rgb(88, 101, 105);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.flexedFemaleImage {
+    position: absolute;
+    top: 70px;
+    right: 250px;
+}
+
+.loginLabel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.submit-form {
+    min-width: 100px;
+}

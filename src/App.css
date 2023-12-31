@@ -1,0 +1,37 @@
+body {
+  background-color: #323232;
+  color: white;
+}
+
+.addItemsWrapper {
+  background-color: rgb(70, 69, 69);
+  text-align: center;
+}
+
+.addItems input {
+  min-width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(155, 72, 155);
+}
+
+.listingTodos {
+  display: flex;
+  justify-content: space-around;
+  border: 0.1px solid linen;
+  margin: 30px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
